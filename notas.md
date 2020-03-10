@@ -23,15 +23,15 @@
 |Generar un informe | archivo : new : selecionar plantilla : seleccionar ruta de guardado |
 |Seleccionar DB de prueba|![DBPrueba_informe](capturasPantalla/DI05_añadirLibrerias_ireport_DBPrueba_informe.png)|
 |SQL del informe|![SQL_informe](capturasPantalla/DI05_añadirLibrerias_ireport_SQL_informe.png)|
-|Paleta Herramientas|![Paleta Herramientas](capturasPantalla\DI05_añadirLibrerias_ireport_PaletaHerramientas_informe.png)|
+|Paleta Herramientas|![Paleta Herramientas](capturasPantalla/DI05_añadirLibrerias_ireport_PaletaHerramientas_informe.png)|
 |Panel del Informe|![Panel_informe](capturasPantalla/DI05_añadirLibrerias_ireport_Panel_informe.png)|
 |Compilar Informe|![Compilar_informe](capturasPantalla/DI05_añadirLibrerias_ireport_Compilar_informe.png)|
-|compilados .jasper |![Compilados_informe](capturasPantalla\DI05_añadirLibrerias_ireport_Compilados_informe.png)|
-|add group |![add group](capturasPantalla\DI05_añadirLibrerias_ireport_add_group.png)|
-|add parameter |![add parameter](capturasPantalla\DI05_añadirLibrerias_ireport_add_parameter.png)|
-|ej. parameter |![add parameter](capturasPantalla\DI05_añadirLibrerias_ireport_ej_parameter.png)|
-|add grafico|![add grafico](capturasPantalla\DI05_añadirLibrerias_ireport_add_grafico.png)|
-|add subinforme|![add subinforme](capturasPantalla\DI05_añadirLibrerias_ireport_add_subinforme.png)|
+|compilados .jasper |![Compilados_informe](capturasPantalla/DI05_añadirLibrerias_ireport_Compilados_informe.png)|
+|add group |![add group](capturasPantalla/DI05_añadirLibrerias_ireport_add_group.png)|
+|add parameter |![add parameter](capturasPantalla/DI05_añadirLibrerias_ireport_add_parameter.png)|
+|ej. parameter |![add parameter](capturasPantalla/DI05_añadirLibrerias_ireport_ej_parameter.png)|
+|add grafico|![add grafico](capturasPantalla/DI05_añadirLibrerias_ireport_add_grafico.png)|
+|add subinforme|![add subinforme](capturasPantalla/DI05_añadirLibrerias_ireport_add_subinforme.png)|
 
 ## [PASO 3] Uso en un proyecto
 
@@ -124,6 +124,8 @@ public class Factura{
 >  Para la factura aparece el listado de productos (su nombre), la cantidad y el precio, y el importe total de cada producto. Añadir a cada factura el importe total a pagar. 
 > Añadir el importe total para cada cliente también.
 
+| Agrupar | capturas|
+| ------ | ------ |
 |SQL del informe|![SQL_informe](capturasPantalla/SQL_TAREA1.png)|
 |Fields|![Panel_informe](capturasPantalla/Fields_TAREA1.png)|
 |Variables|![Panel_informe](capturasPantalla/Variables_TAREA1.png)|
@@ -136,7 +138,8 @@ public class Factura{
 > Incluir el informe para generar facturas en un aplicación java que lo muestre en formato PDF,
 > teniendo en cuenta que el código del cliente (addressid) se pasa al informe como parámetro.
 
-
+| Parametro | capturas|
+| ------ | ------ |
 |SQL del informe|![SQL_informe](capturasPantalla/SQL_TAREA2.png)|
 |Panel del Informe|![Panel_informe](capturasPantalla/Pane2_TAREA2.png)|
 |Parametros|![Panel_informe](capturasPantalla/Parametros_TAREA2.png)|
@@ -150,7 +153,8 @@ public class Factura{
 > Crear un informe en el que aparezca un listado con las ventas totales (cantidad total) de cada producto (se visualiza su nombre).
 > Añadir un gráfico al informe que compare estos totales. Se debe seleccionar el tipo de gráfico que mejor se adapte al problema.
 
-
+| Insrtar grafico | capturas|
+| ------ | ------ |
 |SQL del informe|![SQL_informe](capturasPantalla/SQL_TAREA3.png)|
 |Variables|![Panel_informe](capturasPantalla/Variables_TAREA3.png)|
 |Designer|![Panel_informe](capturasPantalla/Designer_TAREA3.png)|
@@ -160,13 +164,14 @@ public class Factura{
 #### Ejercicio 4
 > Repite el ejercicio 1 (sin subtotales) utilizando subinformes.
 
-
+| subinforme | capturas|
+| ------ | ------ |
 |SQL del informe|![SQL_informe](capturasPantalla/SQL_Informe_TAREA4.png)|
 |captura informe|![SQL_informe](capturasPantalla/captura_Informe_TAREA4.png)|
 |SQL subinforme|![SQL_informe](capturasPantalla/SQL_subInforme_TAREA4.png)|
 |captura subinforme|![SQL_informe](capturasPantalla/captura_subInforme_TAREA4.png)|
 
-[NOMBRE_INFORME.jasper]
+
 
 
 #### conectar servidor [WINDOWS] :
