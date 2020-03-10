@@ -12,8 +12,8 @@
 
 ## [OPCION 2 ] librerias
 
-[![Añadir Librerias Netbeans](.\capturasPantalla\DI05_añadirLibrerias_ireport_netbeans.png)
-[![Añadir Librerias Proyecto](.\capturasPantalla\DI05_añadirLibrerias_ireport_proyect.png)
+[![Añadir Librerias Netbeans](capturasPantalla/DI05_añadirLibrerias_ireport_netbeans.png)
+[![Añadir Librerias Proyecto](capturasPantalla/DI05_añadirLibrerias_ireport_proyect.png)
 
 ## [2] Crear un informe [NOMBREINFORME.jasper]
 
